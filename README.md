@@ -23,3 +23,16 @@ origin  git@github.com:hankei6km/test-gh-repo1.git (push)
 
 コメントは `$ gh pr review --commwent -b 'コメント'` で作成するようだが、
 コメントを参照する方法は(`$ gh pr view` で参照できない?)
+
+
+`$ gh pr merge -m` で(デフォルトだと)ローカルとgithub 上のブランチは削除される(`origia/????` のブランチは削除されない).
+
+```console
+$ gh pr merge -m
+✔ Merged pull request #1 (Note gh repo create)
+✔ Deleted branch topic/note-repo-create and switched to branch master
+
+$ git fetch origin --prune
+From github.com:hankei6km/test-gh-repo1
+ - [deleted]         (none)     -> origin/topic/note-repo-create
+```
