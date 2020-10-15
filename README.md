@@ -36,3 +36,8 @@ $ git fetch origin --prune
 From github.com:hankei6km/test-gh-repo1
  - [deleted]         (none)     -> origin/topic/note-repo-create
 ```
+
+このブランチはコンフリクトする状態で `$ gh pr create` してみた。
+ウェブ上では以下のように表示されているがv `gh` からはどう確認する?
+
+> This branch has conflicts that must be resolved
