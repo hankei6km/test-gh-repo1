@@ -41,3 +41,21 @@ From github.com:hankei6km/test-gh-repo1
 ウェブ上では以下のように表示されているが `gh` からはどう確認する?
 
 > This branch has conflicts that must be resolved
+
+## gh issue
+
+作成は、これまでのコマンド同様に `$ gh issue create` だが、コメントの追加は?
+
+`$ gh issue status` で mention も表示される
+
+```
+Issues assigned to you
+  There are no issues assigned to you
+
+Issues mentioning you
+  #3  "?"マークの位置がおかしい    less than a minute ago
+
+Issues opened by you
+  #3  "?"マークの位置がおかしい    less than a minute ago
+```
+
