@@ -21,8 +21,8 @@ origin  git@github.com:hankei6km/test-gh-repo1.git (push)
 
 `$ gh pr create` すると幾つかの質問に回答後、ローカルで開いているブランチで作成される。
 
-コメントは `$ gh pr review --commwent -b 'コメント'` で作成するようだが、
-コメントを参照する方法は(`$ gh pr view` で参照できない?)
+コメントは `$ gh pr review --commwent -b 'コメント'` で作成するようだが、コメントを参照する方法は?
+(`$ gh pr view` では参照できないように思える)
 
 
 `$ gh pr merge -m` で(デフォルトだと)ローカルとgithub 上のブランチは削除される(`origia/????` のブランチは削除されない).
