@@ -38,6 +38,6 @@ From github.com:hankei6km/test-gh-repo1
 ```
 
 このブランチはコンフリクトする状態で `$ gh pr create` してみた。
-ウェブ上では以下のように表示されているがv `gh` からはどう確認する?
+ウェブ上では以下のように表示されているが `gh` からはどう確認する?
 
 > This branch has conflicts that must be resolved
