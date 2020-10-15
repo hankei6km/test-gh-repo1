@@ -1,11 +1,11 @@
-## Github cli を試すリポジトリ
+## Github CLI を試すリポジトリ
 
 
 とりあえず作成してみる。
 
 ## gh repo create
 
-`$ gh repo create -d 'Github cli を試すリポジトリ'` を実行し、github 上にリポジトリが作成される。
+`$ gh repo create -d 'Github CLI を試すリポジトリ'` を実行し、github 上にリポジトリが作成される。
 
 リモートは以下の通りに設定される。
 ```
